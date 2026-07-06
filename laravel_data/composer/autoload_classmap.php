@@ -8,6 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Http\\Controllers\\API\\AuthController' => $baseDir . '/app/Http/Controllers/API/AuthController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
+    'App\\Http\\Requests\\User\\SigninRequest' => $baseDir . '/app/Http/Requests/User/SigninRequest.php',
+    'App\\Http\\Requests\\User\\SignupRequest' => $baseDir . '/app/Http/Requests/User/SignupRequest.php',
+    'App\\Http\\Resources\\User\\UserResource' => $baseDir . '/app/Http/Resources/User/UserResource.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
