@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-#composer install
+composer install
 wait $!
 php artisan key:generate
 wait $!
